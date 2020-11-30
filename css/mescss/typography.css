@@ -1,0 +1,25 @@
+h1, h2 , h3{
+    font-family: 'Passion One', cursive ;
+    color: #173C40;
+}
+
+header>h1{
+    color: white;
+}
+body{
+    font-family: 'Roboto';
+    color: #343434;
+}
+
+.bouton a {
+    display:block;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    background-color: #238C66;
+    color:white;
+    text-decoration:none;
+
+}
+
