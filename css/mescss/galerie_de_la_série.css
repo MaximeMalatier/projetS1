@@ -1,12 +1,4 @@
-body{
-    background-color: #F6F6F6;
-
-}
-
-header, footer {
-    background-color: #238C66;
-}
-
-.section1 , .section3 {
+.carousel2, .carousel4, .carousel6  {
     background-color: #b9c9c9;
 }
+
