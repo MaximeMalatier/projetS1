@@ -1,4 +1,20 @@
 .section1 , .section3 {
     background-color: #b9c9c9;
 }
+.section1 .bouton{
+    position: absolute;
+    top: 720px;
+    left: 51px;
+}
 
+.section2 .bouton{
+    position: absolute;
+    top: 1100px;
+    left: 51px;
+}
+
+.section3 .bouton{
+    position: absolute;
+    top: 1470px;
+    left: 51px;
+}
