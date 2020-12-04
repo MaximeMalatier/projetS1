@@ -203,4 +203,6 @@ footer>ul{
 .menu ul li img{
     width: 23px;
     height: 23px;
+    position: absolute;
+    bottom: 10px;
 }

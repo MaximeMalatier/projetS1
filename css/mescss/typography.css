@@ -24,7 +24,15 @@ body{
     background-color: #238C66;
     color:white;
     text-decoration:none;
+    font-family: 'Passion One', cursive ;
 
+}
+.bouton p img{
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    left: 230px;
+    bottom: 32px;
 }
 h1{
     font-size: 3px;
