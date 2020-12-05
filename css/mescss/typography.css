@@ -1,14 +1,15 @@
 h1, h2, h3{
     font-family: 'Passion One', cursive ;
-    color: #173C40;
-
+    color: #343434;
 }
-
+.intro h2{
+    font-size: 24px;
+    color: #173C40;
+}
 header>h1{
     color: white;
     font-size: 16px;
 }
-
 
 body{
     font-family: 'Roboto';
@@ -32,7 +33,7 @@ body{
     width: 17px;
     position: absolute;
     left: 230px;
-    bottom: 32px;
+    top: 30px;
 }
 h1{
     font-size: 3px;

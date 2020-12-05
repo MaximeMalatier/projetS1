@@ -141,8 +141,10 @@ footer>ul{
     margin: 0;
     padding: 0;
     font-size: 1.5rem;
-
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
 .menu h1{
     font-size: 24px;
     text-transform: uppercase;
@@ -200,9 +202,16 @@ footer>ul{
 
 }
 
-.menu ul li img{
+.menu ul li img {
     width: 23px;
     height: 23px;
     position: absolute;
     bottom: 10px;
+    left: -7px;
+}
+
+/*Mise en forme footer*/
+footer{
+    display: block;
+
 }
