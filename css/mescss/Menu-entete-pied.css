@@ -47,21 +47,38 @@ header>h1>span {
 
 footer{
     background-color: #238C66;
-    block-size: 255px;
+    block-size: 220px;
+    color: white;
+    padding-top: 10px;
+    padding: bot;
+}
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer li{
+    padding-top: 10px;
+}
+
+footer li a{
+    text-decoration: none;
     color: white;
 }
-footer>ul{
-    list-style: none;
-
-
+footer li a:hover{
+    color: #b9c9c9;
+    background-color: #b9c9c9;
 }
 
-
-
-
-
-
-
+footer li img{
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    left: 290px;
+    top: 2040px;
+}
 
 
 
@@ -210,8 +227,3 @@ footer>ul{
     left: -7px;
 }
 
-/*Mise en forme footer*/
-footer{
-    display: block;
-
-}
