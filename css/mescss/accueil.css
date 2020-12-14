@@ -52,4 +52,19 @@
 
 }
 
+.section2 > div > p {
+    margin-bottom: 0;
+}
 
+.section3 > h3 {
+    margin-top: 0;
+}
+
+
+.section1 h3 img, .section2 h3 img, .section3 h3 img{
+    width: 23px;
+    height: 23px;
+    top: 15px;
+    left: -10px;
+    position: relative;
+}

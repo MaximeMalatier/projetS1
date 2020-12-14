@@ -1,22 +1,24 @@
 body{
     background-color: #F6F6F6;
-    margin: 0px;
+    margin: 0;
     margin-bottom: -16px;
     margin-top: -10px;
+    overflow-x: hidden;
 
+}
+
+video{
+    width: 375px;
+    height: 250px;
 }
 /* Header*/
 
 header{
     background-color: #238C66;
-    block-size: 63px;
-    top: 0px;
-    width: auto;
-
+    padding: 25px;
 }
 
  body>header>a{
-     position: absolute;
      top: 10px;
      left: 5px;
      display: block; /* toujours, car on va afficher un 'fond' */
@@ -25,7 +27,8 @@ header{
      background-size: cover;
      background-image: url('../../img/Image-interface/Logo-the-DarkS-of-PP.png');
      text-indent: -9999px;
-     z-index: 2;
+     z-index: 3;
+     position: fixed;
 
 }
 
@@ -33,13 +36,12 @@ header>h1{
     display: flex;
     justify-content: center;
     position: relative;
-    top: 15px;
     text-transform: uppercase;
 }
 
 header>h1>span {
     position: absolute;
-    top: 20px;
+    top: 17px;
 }
 
 
@@ -47,10 +49,9 @@ header>h1>span {
 
 footer{
     background-color: #238C66;
-    block-size: 220px;
+    block-size: 250px;
     color: white;
     padding-top: 10px;
-    padding: bot;
 }
 footer ul{
     list-style: none;
@@ -72,12 +73,19 @@ footer li a:hover{
     background-color: #b9c9c9;
 }
 
-footer li img{
-    height: 30px;
-    width: 50px;
-    position: absolute;
-    left: 290px;
-    top: 2040px;
+footer ul li:nth-child(n+5) a{
+    display: block; /* toujours, car on va afficher un 'fond' */
+    width: 35px; /* taille de l'image */
+    height: 20px;
+    background-size: cover;
+    background-image: url('../../img/Image-interface/picto/gmail.png');
+    text-indent: -9999px;
+    position: relative;
+    left: 200px;
+    top: -23px;
+}
+footer ul li:last-child{
+    padding-top: 0;
 }
 
 
@@ -88,13 +96,13 @@ footer li img{
 .nav-toggle{
     width: 24px;
     height: 24px;
-    position: absolute;
     top: 10px;
     right: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 2;
+    z-index: 3;
+    position: fixed;
 }
 
 .nav-toggle-bar,
@@ -130,19 +138,19 @@ footer li img{
 }
 
 
-
 /* Mise en forme menu*/
 
 .menu{
     background-color: #F6F6F6;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     transform: translateX(100vw);
     transition: all .4s;
-    z-index: 1;
+    z-index: 2;
+
 }
 .menu-open .menu{
     transform: translateX(0);

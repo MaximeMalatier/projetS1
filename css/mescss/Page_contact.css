@@ -1,3 +1,90 @@
+h2{
+    text-align: center;
+    padding: 15px;
+}
+p{
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
 .section1 , .section3 {
     background-color: #b9c9c9;
+}
+article ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+article ul li img{
+    width: 20%;
+    height: 20%;
+    padding: 10px;
+    background-color: #b9c9c9;
+}
+
+article ul li{
+    padding: 20px;
+}
+
+article ul li a{
+    position: relative;
+    left: 150px;
+    bottom: 60px;
+    color: #343434;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+
+
+}
+
+article ul li a:hover{
+    color: #b9c9c9;
+}
+
+.formulaire ul{
+    list-style-type: none;
+}
+
+input{
+    height: 40px;
+    width: 300px;
+}
+
+textarea{
+    height: 100px;
+    width: 300px;
+}
+
+label{
+    font-size: 16px;
+    font-family: 'Passion One', cursive;
+    padding-bottom: 10px;
+
+}
+.formulaire button{
+    color: white;
+    background: #238C66;
+    border: 0;
+    padding: 10px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 205px;
+    top: 10px;
+}
+
+
+article ul li a{
+    background-color: #238C66;
+    color: white;
+    padding: 5px;
+    text-align: center;
 }

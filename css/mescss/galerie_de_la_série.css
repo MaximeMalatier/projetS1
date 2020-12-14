@@ -2,3 +2,72 @@
     background-color: #b9c9c9;
 }
 
+.titre_chapô h2{
+    text-align: center;
+    padding: 15px;
+}
+
+.carousel1 h3, .carousel2 h3, .carousel3 h3, .carousel4 h3, .carousel5 h3, .carousel6 h3{
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 20px;
+}
+
+.carousel1 p, .carousel2 p, .carousel3 p, .carousel4 p, .carousel5 p, .carousel6 p{
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel1 ul, .carousel2 ul, .carousel3 ul, .carousel4 ul, .carousel5 ul, .carousel6 ul{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.carousel1 li, .carousel2 li, .carousel3 li, .carousel4 li, .carousel5 li, .carousel6 li{
+    flex: 1 0 220px;
+    scroll-snap-align: center;
+}
+
+
+.carousel1 li p, .carousel2 li p, .carousel3 li p, .carousel4 li p, .carousel5 li p, .carousel6 li p{
+    display: block;
+    width: 250px;
+    height: 14px;
+    font-size: 12px;
+    position: relative;
+    margin-left: 0;
+    bottom: 40px;
+    color: white;
+    background-color: rgba(35, 140, 102, 0.69);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+h3{
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-top: 20px;
+}
+
+.bouton_précédent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 268px;
+}
+
+.bouton_précédent{}

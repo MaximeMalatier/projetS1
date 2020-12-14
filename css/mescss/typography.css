@@ -26,16 +26,84 @@ body{
     color:white;
     text-decoration:none;
     font-family: 'Passion One', cursive ;
+}
+
+.bouton_précédent a {
+    display:block;
+    width:268px;
+    line-height:49px;
+    text-align:center;
+    vertical-align:middle;
+    background-color: #238C66;
+    color:white;
+    text-decoration:none;
+    font-family: 'Passion One', cursive ;
 
 }
-.bouton p img{
+
+.bouton p img, .bouton_précédent p img{
     height: 17px;
     width: 17px;
     position: absolute;
     left: 230px;
     top: 30px;
 }
-h1{
-    font-size: 3px;
+
+.titre_chapô h2{
+    color: #173C40;
 }
 
+.titre_chapô p{
+    font-size: 16px;
+}
+
+body p{
+    font-family: Roboto, sans-serif;
+}
+
+.section1 .legende p, .section2 .legende p, .section3 .legende p, .section4 .legende p, .ouvrage-scientifique .legende p {
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+.bouton_fin .bouton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 268px;
+}
+.bouton_fin .bouton_précédent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 268px;
+}
+.bouton_fin .bouton p img{
+    position:relative;
+    top: -33px;
+}
+.bouton_fin .bouton_précédent p img{
+    position: relative;
+    top: -33px;
+    left: 25px;
+}
+
+blockquote{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #343434;
+    font-style: italic;
+}
+
+blockquote span{
+    color: #238C66;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.keyword{
+    font-weight: bold;
+}
