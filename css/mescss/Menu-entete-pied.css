@@ -170,7 +170,7 @@ footer ul li:last-child{
     margin-right: 20px;
 }
 
-.menu h1{
+body > nav > h2:nth-child(1){
     font-size: 24px;
     text-transform: uppercase;
     color: #343434;
@@ -180,10 +180,11 @@ footer ul li:last-child{
 
 }
 
-.menu h1 span{
+body > nav > h2:nth-child(1) > span{
     position: absolute;
-    top: 20px;
+    top: 30px;
 }
+
 .menu li{
     margin-bottom: 30px;
     transform: translateX(30px);

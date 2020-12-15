@@ -45,3 +45,10 @@
 .section1 p a, .section2 p a, .section4 p a,.section5 p a,.section6 p a{
     color: #238C66;
 }
+body > header > div{
+    margin-right: 29px;
+}
+
+.menu-open body > header > div {
+    margin-right: 0;
+}

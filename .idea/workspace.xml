@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d4f89d7-d36d-40ca-a4ad-962fa1df1b57" name="Default Changelist" comment="" />
+    <list default="true" id="6d4f89d7-d36d-40ca-a4ad-962fa1df1b57" name="Default Changelist" comment="Probleme Git donc ajout de tout le reste du site">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comment_combattre_la_pollution_numerique.html" beforeDir="false" afterPath="$PROJECT_DIR$/Comment_combattre_la_pollution_numerique.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Galerie_de_la_serie.html" beforeDir="false" afterPath="$PROJECT_DIR$/Galerie_de_la_serie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page_Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pied_Piper_un_danger_pour_l_environnement.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pied_Piper_un_danger_pour_l_environnement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Silicon_Valley_une_comedie_dans_l'informatique.html" beforeDir="false" afterPath="$PROJECT_DIR$/Silicon_Valley_une_comedie_dans_l'informatique.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mescss/Menu-entete-pied.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mescss/Menu-entete-pied.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mescss/Silicon_Valley_une_série.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mescss/Silicon_Valley_une_série.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Images_Articles/Images_Pied_Piper_un_danger_pour_l_environnement/La-Face-cachée-du-numérique.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +50,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Bureau/Site The Dark Side Of Pied Piper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projetS1testos" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -34,10 +63,49 @@
       <updated>1607971474491</updated>
       <workItem from="1607971475538" duration="48000" />
       <workItem from="1607971540723" duration="11000" />
+      <workItem from="1607975416901" duration="303000" />
+      <workItem from="1607975752214" duration="114000" />
+      <workItem from="1608039464222" duration="12000" />
+      <workItem from="1608044596538" duration="327000" />
+      <workItem from="1608044961045" duration="310000" />
     </task>
+    <task id="LOCAL-00001" summary="Probleme Git donc ajout de tout le reste du site">
+      <created>1607975481087</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607975481087</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Probleme Git donc ajout de tout le reste du site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Probleme Git donc ajout de tout le reste du site" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607975518088">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1607975518088" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607975779663">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1607975779663" />
   </component>
 </project>
